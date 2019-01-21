@@ -1,0 +1,8 @@
+{
+  "name": "music",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "8c881a88"
+}
