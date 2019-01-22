@@ -10,7 +10,7 @@ import { SocialSharing } from '@ionic-native/social-sharing';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MusicsProvider } from '../providers/musics/musics';
-import { Media } from '@ionic-native/media'
+import { Media } from '@ionic-native/media';
 
 @NgModule({
   declarations: [

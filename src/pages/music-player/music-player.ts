@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Media, MediaObject } from '@ionic-native/media'
+import {  NavController, NavParams } from 'ionic-angular';
+import { Media, MediaObject } from '@ionic-native/media';
 
 
 /**
@@ -21,7 +21,7 @@ export class MusicPlayerPage {
   private isMusicPaused=false;
   constructor(private media:Media,
     public navCtrl: NavController, public navParams: NavParams) {
-    this.music=this.navParams.get("music");
+      this.music = this.navParams.get("music");
   }
 
   ionViewDidLoad() {
